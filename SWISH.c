@@ -6,7 +6,7 @@ int main()
     final_price = price;
     
     
-    while(price>9){
+    while(price>1){
         discount_price =(price*discount)/100;
         final_price = (final_price) + (price - discount_price);
         price = price - discount_price;
